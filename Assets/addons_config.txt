@@ -1,0 +1,21 @@
+// existing renderers on Mita
+//  - Attribute
+//  - Body
+//  - Hair
+//  - Head
+//  - Pantyhose
+//  - Shoes
+//  - Skirt
+//  - Sweater
+
+*CatEars
+create_static_appendix Mita CatEars Head
+replace_tex Mita CatEars CatEar_BaseColor
+replace_mesh Mita CatEars MitaCatMaid CatEars
+-remove Mita CatEars
+
+
+*RemoveSkirt
+remove Mita Skirt
+-recover Mita Skirt
+
